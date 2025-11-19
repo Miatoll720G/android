@@ -8,10 +8,11 @@
   <remote  name="private"
            fetch="ssh://git@github.com" />
 
+  <!-- QPR1 AOSP base -->
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-16.0.0_r1" />
+           revision="android16-qpr1-release" />
 
   <default revision="refs/heads/lineage-23.0"
            remote="github"
